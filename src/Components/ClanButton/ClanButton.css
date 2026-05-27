@@ -1,0 +1,20 @@
+.clan-button {
+  padding: 10px 16px;
+  margin-top: 12px;
+  border: 1px solid crimson;
+  border-radius: 10px;
+  border-style:double;
+  background: rgb(0, 0, 0);
+  color: rgb(224, 224, 224);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style:oblique;
+  color-interpolation-filters: sRGB;
+  box-shadow: 0 0 10px rgba(255, 0, 60, 0.3); 
+}
+
+.clan-button:hover {
+  background: rgb(117, 0, 23);
+  transform: scale(1.05);
+}
